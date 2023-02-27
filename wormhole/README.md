@@ -1,10 +1,13 @@
 
 
 Wormhole architecture:
-https://book.wormhole.com/wormhole/2_architectureOverview.html 
+[https://book.wormhole.com/wormhole/2_architectureOverview.html](https://book.wormhole.com/wormhole/2_architectureOverview.html)
 
 Wormhole contract addresses: 
-https://book.wormhole.com/reference/contracts.html
+[https://book.wormhole.com/reference/contracts.html](https://book.wormhole.com/reference/contracts.html)
+
+Wormhole security:
+[https://github.com/wormhole-foundation/wormhole/blob/main/SECURITY.md](https://github.com/wormhole-foundation/wormhole/blob/main/SECURITY.md)
 
 
 # Based on Binance Chain code
@@ -61,4 +64,11 @@ Relayer (an EOA) -> Token Bridge.(some governane action on the token bridge) -> 
 Relayer (an EOA) -> Core Bridge.(some governane action on the core bridge)
 
 Note that the governance action request verification is different for the Core Bridge and the Token Bridge. 
+
+
+
+# Uniswap Message Contract for use with Wormhole
+
+Details of deployment: 
+[https://gov.uniswap.org/t/rfc-update-deploy-uniswap-v3-1-0-3-0-05-0-01-on-bnb-chain-binance/19734/101](https://gov.uniswap.org/t/rfc-update-deploy-uniswap-v3-1-0-3-0-05-0-01-on-bnb-chain-binance/19734/101)
 
