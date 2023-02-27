@@ -14,7 +14,7 @@ For an app to request a function call on a remote chain, call Implementation.pub
 An app contract can verify a message by calling Messages.parseAndVerifyVM. Note that:
 
 * Replay protection is the responsibility of the app contract.
-* Pauing is the responsibility of the app contract.
+* Pauing is the responsibility of the app contract. A discussion around the rationale for not including the ability to pause in the bridge is given here: [https://github.com/wormhole-foundation/wormhole/blob/main/SECURITY.md#Emergency-Shutdown](https://github.com/wormhole-foundation/wormhole/blob/main/SECURITY.md#Emergency-Shutdown)
 
 Admin functions (submitContractUpgrade, submitSetMessageFee, submitNewGuardianSet,  submitTransferFees) are public and permissionless (that is, no msg.sender == ). They are expected to be called by an EOA relayer, though could be called by another contract. They do the admin checks: 
 
