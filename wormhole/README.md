@@ -72,3 +72,10 @@ Note that the governance action request verification is different for the Core B
 Details of deployment: 
 [https://gov.uniswap.org/t/rfc-update-deploy-uniswap-v3-1-0-3-0-05-0-01-on-bnb-chain-binance/19734/101](https://gov.uniswap.org/t/rfc-update-deploy-uniswap-v3-1-0-3-0-05-0-01-on-bnb-chain-binance/19734/101)
 
+
+
+
+
+Uniswap on Binance
+
+https://bscscan.com/address/0x128ce3a3d48f27ce35a3f810cf2cddd2f6879b13 
